@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+@theme {
+  --font-roboto-light: "roboto-light";
+  --font-roboto-medium: "roboto-medium";
+  --font-roboto-regular: "roboto-regular";
+  --font-roboto-bold: "roboto-bold";
+}
+
+@layer base {
+  @font-face {
+    font-family: "roboto-light";
+    src: url("/fonts/roboto-light.woff2");
+  }
+
+  @font-face {
+    font-family: "roboto-medium";
+    src: url("/fonts/roboto-medium.woff2");
+  }
+
+  @font-face {
+    font-family: "roboto-regular";
+    src: url("/fonts/roboto-regular.woff2");
+  }
+
+  @font-face {
+    font-family: "roboto-bold";
+    src: url("/fonts/roboto-bold.woff2");
+  }
+}
